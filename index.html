@@ -4,6 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Western Components</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/component-page-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"
+    />
+    <script defer src="/script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav style="display: flex">
+        <ul style="display: flex; gap: 3rem; list-style: none">
+          <li>Components</li>
+          <li>Guidelines</li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Western Components and Guidelines</h1>
+      <h2>Components</h2>
+      <!--COMPONENTS CONTENT-->
+      <h3>Buttons</h3>
+      <div class="button-display">
+        <div class="button-display-section">
+          <h4>.wi-button-purple</h4>
+          <button class="wi-button-purple">Button</button>
+
+          <dialog id="dialog1">
+            <button autofocus>Close</button>
+            <pre>
+            <code class="language-css">
+.wi-button-purple {
+  border-radius: 5px;
+  background-color: #4f2683;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.wi-button-purple:hover {
+  background-color: #fff;
+  color: #4f2683;
+  border: 1px solid #4f2683;
+  transition: 0.3s ease-in-out all 0s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wi-button-purple:active {
+  background-color: #4f2683;
+  color: #fff;
+  transition: 0.3s ease-in-out all 0s;
+}
+            </code>
+          </pre>
+          </dialog>
+          <button class="show-dialog" data-dialog="dialog1">Show Code</button>
+        </div>
+        <div class="button-display-section wi-background-purple">
+          <h4>.wi-button-white</h4>
+          <button class="wi-button-white">Button</button>
+          <dialog id="dialog2">
+            <button autofocus>Close</button>
+            <pre>
+          <code class="language-css"> 
+    .wi-button-white {
+      border-radius: 5px;
+      background-color: #ffffff;
+      color: #4f2683;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+    
+    .wi-button-white:hover {
+      background-color: #4f2683;
+      color: #fff;
+      border: 1px solid #fff;
+      transition: 0.3s ease-in-out all 0s;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    
+    .wi-button-white:active {
+      background-color: #fff;
+      color: #4f2683;
+      border: 1px solid #fff;
+      transition: 0.3s ease-in-out all 0s;
+    }
+          </code>
+          </pre>
+          </dialog>
+          <button class="show-dialog" data-dialog="dialog2">Show Code</button>
+        </div>
+      </div>
+
+      <h2>Guidelines</h2>
+      <!--GUIDELINES CONTENT-->
+    </section>
+  </body>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+  </head>
 </html>

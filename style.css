@@ -1,0 +1,90 @@
+/*WIDTH AND MARGIN RESET*/
+
+#content.grid_12 {
+  margin-left: unset;
+  max-width: unset;
+}
+.main-content {
+  max-width: unset;
+}
+#lowlevel.main-content {
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.container_12 .grid_9 {
+  width: unset;
+  margin: 0;
+}
+/*COMPONENTS*/
+
+/* Buttons */
+.wi-button-purple {
+  border-radius: 5px;
+  background-color: #4f2683;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.wi-button-purple:hover {
+  background-color: #fff;
+  color: #4f2683;
+  border: 1px solid #4f2683;
+  transition: 0.3s ease-in-out all 0s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wi-button-purple:active {
+  background-color: #4f2683;
+  color: #fff;
+  transition: 0.3s ease-in-out all 0s;
+}
+
+.wi-button-white {
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #4f2683;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.wi-button-white:hover {
+  background-color: #4f2683;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.3s ease-in-out all 0s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wi-button-white:active {
+  background-color: #fff;
+  color: #4f2683;
+  border: 1px solid #fff;
+  transition: 0.3s ease-in-out all 0s;
+}
+/* Background */
+.wi-background-purple {
+  background-color: #4f2683;
+  color: #fff;
+}
+.wi-title-white {
+  color: white;
+}
+.wi-font-white {
+  color: white;
+}
+
+.icon-motion {
+  transition: transform 0.3s cubic-bezier(0.5, 1.1, 0.4, 0.9);
+}
+.icon-motion:hover {
+  transform: scale(1.1);
+}
