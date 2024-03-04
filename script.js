@@ -6,9 +6,7 @@ showDialogButtons.forEach((button) => {
   button.addEventListener("click", function () {
     // Get the dialog ID from the button's data-dialog attribute
     const dialogId = this.getAttribute("data-dialog");
-    console.log(dialogId);
     const dialog = document.getElementById(dialogId);
-    console.log(dialog);
 
     // Show the dialog
     dialog.showModal();
